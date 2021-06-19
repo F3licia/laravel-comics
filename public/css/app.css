@@ -1,0 +1,29 @@
+.topperbar {
+  background-color: #0282f9;
+  height: 20px;
+  width: 100%;
+}
+
+.mini-menu {
+  width: 200px;
+  color: white;
+}
+
+.header {
+  background-color: white;
+  display: flex;
+  width: 100%;
+  height: 150px;
+  color: #464646;
+}
+
+.header li {
+  display: inline;
+}
+
+.hero {
+  height: 300px;
+  width: 100%;
+  background-image: url("/images/jumbotron.jpg");
+}
+
