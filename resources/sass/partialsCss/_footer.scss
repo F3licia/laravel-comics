@@ -6,28 +6,54 @@
     background-size: cover;
     overflow: hidden;
     color: white;
+    position: relative;
+
+    & img {
+    position:relative;
+    bottom: 50px;
+    }
 }
+
+
 .frame{
     display: flex;
     justify-content: space-between;
-    align-items: center;
+     align-items: stretch;
 }
 
 .footer-lists{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 
 .footerCol{
+    display: inline-block;
 text-transform: uppercase;
  margin-right: 40px ;
+ font-size: 30px;
 
-    & li{
+    & li {
     text-transform: none;
      list-style: none;
-     opacity: 70%;
+     margin-top: 10px;
+     opacity: 60%;
+     font-size: 15px;
+     font-family: Arial, Helvetica, sans-serif;
+     font-weight: lighter;
+    
     }
+}
 
+.footerRow{
+    height: 100%;
+    width: 100%;
+    & p{
+        margin-top: 30px;
+        margin-bottom: 20px;
+        opacity: 60%;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: lighter;
+    }
 }

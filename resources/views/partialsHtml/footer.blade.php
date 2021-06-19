@@ -45,6 +45,11 @@
                     <li>Contact Us</li>
                 </ul>
             </div>
+            <div class="footerRow">
+                <p>All Site Content TM and © 2020 DC Entertainment, unless otherwise noted here.
+                    All rights reserved. Cookies Settings
+                </p>
+            </div>
         </div>
         <img src="{{asset('/images/dc-logo-bg.png')}}" alt="">
     </div>
