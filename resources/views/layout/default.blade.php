@@ -13,13 +13,20 @@
          <div class="mini-menu"><p>testo qui</p></div>
     </div>
     <div class="header">
-        <img src="{{asset('/images/dc-logo.png')}}" alt="">
-            <ul>
-                 <li>testo</li>
-                 <li>testo</li>
-                 <li>testo</li>
-                 <li>testo</li>
-                 <li>testo</li>
+    <img src="{{asset('/images/dc-logo.png')}}" alt="">
+
+            <ul>           
+                <li>
+                    <a href="{{ route('characters') }}">
+                        characters
+                    </a>
+                    <a href="{{ route('comics') }}">
+                        comics
+                    </a>
+                    <a href="{{ route('movies') }}">
+                        movies
+                    </a>
+                </li>
             </ul>
     </div>
     <div class="hero"></div>

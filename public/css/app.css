@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .topperbar {
   background-color: #0282f9;
   height: 20px;
@@ -22,8 +28,10 @@
 }
 
 .hero {
-  height: 300px;
+  height: 400px;
   width: 100%;
   background-image: url("/images/jumbotron.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
