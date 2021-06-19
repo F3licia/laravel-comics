@@ -2,9 +2,24 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "250072c23613fe0b - subset of Greta Sans Pro Bld";
   }
-  
-$font_family: 'arial';
-$primary-color: #0282f9;
+  .section{
+   padding-left: 100px;
+   padding-right: 100px;
+  }
+ 
 
-@import "partials/header";
+$primary-color: #0282f9;
+@import "partialsCss/header";
+@import "partialsCss/footer";
+
+
+
+
+
+@font-face {font-family: "250072c23613fe0b - subset of Greta Sans Pro Bld";
+  src: url("//db.onlinewebfonts.com/t/60d534f9b4ded0f0b50514c27ee3e83a.eot");
+  src: url("//db.onlinewebfonts.com/t/60d534f9b4ded0f0b50514c27ee3e83a.eot?#iefix")
+ }
+@import url(//db.onlinewebfonts.com/c/60d534f9b4ded0f0b50514c27ee3e83a?family=250072c23613fe0b+-+subset+of+Greta+Sans+Pro+Bld);

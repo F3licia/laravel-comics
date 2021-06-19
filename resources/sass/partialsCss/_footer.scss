@@ -1,0 +1,33 @@
+.bigfooter{
+    height: 400px;
+    width: 100%;
+    background-image: url('/images/footer-bg.jpg');
+    background-repeat: no-repeat; 
+    background-size: cover;
+    overflow: hidden;
+    color: white;
+}
+.frame{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-lists{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.footerCol{
+text-transform: uppercase;
+ margin-right: 40px ;
+
+    & li{
+    text-transform: none;
+     list-style: none;
+     opacity: 70%;
+    }
+
+}

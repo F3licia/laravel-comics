@@ -1,7 +1,13 @@
-* {
+@import url(//db.onlinewebfonts.com/c/60d534f9b4ded0f0b50514c27ee3e83a?family=250072c23613fe0b+-+subset+of+Greta+Sans+Pro+Bld);* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "250072c23613fe0b - subset of Greta Sans Pro Bld";
+}
+
+.section {
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 .topperbar {
@@ -18,6 +24,7 @@
 .header {
   background-color: white;
   display: flex;
+  align-items: center;
   width: 100%;
   height: 150px;
   color: #464646;
@@ -33,5 +40,44 @@
   background-image: url("/images/jumbotron.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.bigfooter {
+  height: 400px;
+  width: 100%;
+  background-image: url("/images/footer-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  color: white;
+}
+
+.frame {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-lists {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footerCol {
+  text-transform: uppercase;
+  margin-right: 40px;
+}
+
+.footerCol li {
+  text-transform: none;
+  list-style: none;
+  opacity: 70%;
+}
+
+@font-face {
+  font-family: "250072c23613fe0b - subset of Greta Sans Pro Bld";
+  src: url("//db.onlinewebfonts.com/t/60d534f9b4ded0f0b50514c27ee3e83a.eot");
+  src: url("//db.onlinewebfonts.com/t/60d534f9b4ded0f0b50514c27ee3e83a.eot?#iefix");
 }
 
