@@ -95,6 +95,12 @@
   background-size: cover;
 }
 
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+}
+
 .bigfooter {
   height: 400px;
   width: 100%;
@@ -229,5 +235,9 @@
 
 .button1:active {
   border-style: none;
+}
+
+input:focus-visible {
+  outline-offset: 0px;
 }
 

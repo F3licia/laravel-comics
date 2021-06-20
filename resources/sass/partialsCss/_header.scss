@@ -73,3 +73,7 @@
     background-repeat: no-repeat; 
     background-size: cover;
 }
+
+input:focus, textarea:focus, select:focus{
+    outline: none;
+}
