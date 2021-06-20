@@ -1,0 +1,21 @@
+
+
+.centerbuttonDiv{
+    width: 100%;
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.button1{
+    text-align: center;
+    height: 40px;
+    width: 200px;
+    color: white;
+    background-color: $primary-color;
+    border-style: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    &:active {
+       border-style: none;  
+    }
+}

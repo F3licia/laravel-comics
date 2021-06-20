@@ -18,6 +18,10 @@
             <h4>{{ $comic['title']}}</h4>
         </div>
     @endforeach
+
+    <div class="centerbuttonDiv">
+        <button class="button1">load more</button>
+    </div>
     
 </div>
 
