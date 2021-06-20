@@ -39,33 +39,15 @@
 
 
 .searchbar{
-<<<<<<< HEAD
+
     height: 50px;
     width: 200px;
 }
 
 .searchbar input{
     border-bottom: 3px solid $primary-color;
-=======
-    height: 25px;
-    width: 200px;  
+
 }
-
-& input{
-    width: 100%;
-    font-size: 20px;
-    text-align: right;
-    background-color: transparent;
-    border: none;
-    border-bottom: 3px solid $primary-color;
-
-    &::placeholder {
-        color: $secondary-color;
-        font-weight: 700;
-    }
->>>>>>> 55c0b1bd953a64c5687be5cbe39f0b6b2972c164
-}
-
 .hero{
     height: 400px;
     width: 100%;

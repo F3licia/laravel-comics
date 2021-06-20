@@ -2,11 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-<<<<<<< HEAD
   font-family: "Noto Sans JP", sans-serif;
-=======
-  font-family: "Roboto Condensed", sans-serif;
->>>>>>> 55c0b1bd953a64c5687be5cbe39f0b6b2972c164
 }
 
 .section {
@@ -55,48 +51,12 @@
 }
 
 .searchbar {
-  height: 25px;
+  height: 50px;
   width: 200px;
 }
 
 .searchbar input {
-<<<<<<< HEAD
   border-bottom: 3px solid #0282f9;
-=======
-  width: 100%;
-  font-size: 20px;
-  text-align: right;
-  background-color: transparent;
-  border: none;
-  border-bottom: 3px solid #0282f9;
-}
-
-.searchbar input::-moz-placeholder {
-  color: #464646;
-  font-weight: 700;
-}
-
-.searchbar input:-ms-input-placeholder {
-  color: #464646;
-  font-weight: 700;
-}
-
-.searchbar input::placeholder {
-  color: #464646;
-  font-weight: 700;
-}
-
-.searchbar input::-moz-placeholder:focus-visible {
-  outline: NONE;
-}
-
-.searchbar input:-ms-input-placeholder:focus-visible {
-  outline: NONE;
-}
-
-.searchbar input::placeholder:focus-visible {
-  outline: NONE;
->>>>>>> 55c0b1bd953a64c5687be5cbe39f0b6b2972c164
 }
 
 .hero {
@@ -165,18 +125,9 @@
   font-weight: lighter;
 }
 
-<<<<<<< HEAD
 .smallfooter {
   height: 100px;
   width: 100%;
   background-color: #464646;
 }
 
-@font-face {
-  font-family: "250072c23613fe0b - subset of Greta Sans Pro Bld";
-  src: url("//db.onlinewebfonts.com/t/60d534f9b4ded0f0b50514c27ee3e83a.eot");
-  src: url("//db.onlinewebfonts.com/t/60d534f9b4ded0f0b50514c27ee3e83a.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/60d534f9b4ded0f0b50514c27ee3e83a.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/60d534f9b4ded0f0b50514c27ee3e83a.woff") format("woff"), url("//db.onlinewebfonts.com/t/60d534f9b4ded0f0b50514c27ee3e83a.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/60d534f9b4ded0f0b50514c27ee3e83a.svg#250072c23613fe0b - subset of Greta Sans Pro Bld") format("svg");
-}
-
-=======
->>>>>>> 55c0b1bd953a64c5687be5cbe39f0b6b2972c164
