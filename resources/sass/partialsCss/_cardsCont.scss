@@ -2,11 +2,11 @@
     padding-top: 90px;
     padding-bottom: 30px;
     background-color: $tertiary-color;
-    display: flex;
+    display: flex;  
+    justify-content: center;
     flex-wrap: wrap;
     position: relative;
 }
-
 
 .titleCont{
     height: 60px;
@@ -16,6 +16,7 @@
     background-color: $primary-color;
     position: absolute;
     top:-25px;
+    left: 100px;
 
     display: flex;
     align-items: center;
