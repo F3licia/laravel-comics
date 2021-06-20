@@ -54,6 +54,13 @@
         <img src="{{asset('/images/dc-logo-bg.png')}}" alt="">
     </div>
 </div>
+
 <div class="section smallfooter">
-<button class="button2">sign-up now!</button>
+    <button class="button2">sign-up now!</button>
+
+    <div class="socialList">
+        <h4>follow us</h4>
+    </div>
+
 </div>
+

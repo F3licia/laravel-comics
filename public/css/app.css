@@ -160,9 +160,17 @@ select:focus {
 }
 
 .smallfooter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   height: 100px;
   width: 100%;
   background-color: #303030;
+}
+
+.socialList {
+  display: flex;
+  background-color: yellow;
 }
 
 .container {
