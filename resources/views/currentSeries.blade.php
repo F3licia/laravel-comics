@@ -5,6 +5,10 @@
 @include('partialsHtml.header')
 
 <div class="section container">
+    <div class="titleCont">
+        <h3>Current Series</h3>
+        
+    </div>
    
     @foreach($comicsList as $comic)
         <div class="card">

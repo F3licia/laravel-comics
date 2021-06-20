@@ -4,29 +4,48 @@
     background-color: $tertiary-color;
     display: flex;
     flex-wrap: wrap;
+    position: relative;
 }
+
+
+.titleCont{
+    height: 60px;
+    width: 200px;
+    color: white;
+    text-transform: uppercase;
+    background-color: $primary-color;
+    position: absolute;
+    top:-25px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 
 .card{
     display: flex;
     flex-direction: column;
     margin-right: 10px;
     margin-left: 10px;
-   
     width: calc(100% / 7);
     text-transform: uppercase;
-    text-align: left;
     font-size: smaller;
     color: white;
+
+    & h4{
+        font-weight: 200;
+        text-align: left;
+    }
 }
 
 .coverimg{
     height: 200px;
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
     overflow: hidden;
-    background-color: yellow;
     & img{
         width: 100%;
-
     }
 }
