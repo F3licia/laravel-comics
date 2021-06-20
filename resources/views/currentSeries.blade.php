@@ -4,7 +4,7 @@
 
 @include('partialsHtml.header')
 
-<div class="container">
+<div class="section container">
    
     @foreach($comicsList as $comic)
         <div class="card">
