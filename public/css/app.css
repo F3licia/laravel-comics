@@ -237,7 +237,9 @@ select:focus {
   border-style: none;
 }
 
-input:focus-visible {
-  outline-offset: 0px;
+.externalLinks {
+  height: 300px;
+  width: 100%;
+  background-color: #0282f9;
 }
 
