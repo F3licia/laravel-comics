@@ -1,5 +1,26 @@
 .externalLinks{
-    height: 300px;
+    height: 150px;
     width: 100%;
- background-color: $primary-color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: $primary-color;
 }
+
+.linkSect{
+    display: flex;
+    align-items: center;
+    width: calc(100% / 5);
+
+    & img{
+        height: 50px;
+    }
+    & h4{
+        margin-left: 15px;
+        font-weight: 100;
+        text-transform: uppercase;
+    }
+}
+
+
