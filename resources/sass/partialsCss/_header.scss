@@ -39,15 +39,21 @@
 
 
 .searchbar{
-
-    height: 50px;
+    display: flex;
     width: 200px;
 }
 
 .searchbar input{
     border-bottom: 3px solid $primary-color;
-
+    text-align: right;
+    
+    &::placeholder{
+        color: $secondary-color;
+        font-size: 20px;
+    }
 }
+
+
 .hero{
     height: 400px;
     width: 100%;

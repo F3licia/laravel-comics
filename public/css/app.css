@@ -51,12 +51,28 @@
 }
 
 .searchbar {
-  height: 50px;
+  display: flex;
   width: 200px;
 }
 
 .searchbar input {
   border-bottom: 3px solid #0282f9;
+  text-align: right;
+}
+
+.searchbar input::-moz-placeholder {
+  color: #464646;
+  font-size: 20px;
+}
+
+.searchbar input:-ms-input-placeholder {
+  color: #464646;
+  font-size: 20px;
+}
+
+.searchbar input::placeholder {
+  color: #464646;
+  font-size: 20px;
 }
 
 .hero {

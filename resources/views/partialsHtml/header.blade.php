@@ -57,7 +57,6 @@
        </ul>
 
        <div class="searchbar">
-
            <input type="text" placeholder="Search &#x1F50E;&#xFE0E;">
        </div>
 </div>
