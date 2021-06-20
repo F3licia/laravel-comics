@@ -11,6 +11,8 @@
 }
 
 .topperbar {
+  padding-top: 5px;
+  padding-bottom: 5px;
   display: flex;
   justify-content: flex-end;
   width: 100%;
@@ -22,6 +24,7 @@
 .topperbar select {
   text-transform: uppercase;
   color: white;
+  font-size: x-small;
   background-color: #0282f9;
   border: none;
 }
@@ -48,6 +51,10 @@
   font-size: 20px;
   font-weight: 700;
   color: #303030;
+}
+
+.header img {
+  cursor: pointer;
 }
 
 .listmenu {
@@ -186,6 +193,10 @@ select:focus {
   margin-left: 20px;
 }
 
+.socialList img {
+  cursor: pointer;
+}
+
 .container {
   padding-top: 90px;
   padding-bottom: 30px;
@@ -284,6 +295,7 @@ select:focus {
   justify-content: center;
   align-items: center;
   width: calc(100% / 5);
+  cursor: pointer;
 }
 
 .linkSect img {

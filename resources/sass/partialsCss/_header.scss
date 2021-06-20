@@ -1,4 +1,6 @@
 .topperbar{
+    padding-top: 5px;
+    padding-bottom: 5px;
     display: flex;
     justify-content: flex-end;
     width: 100%;
@@ -8,6 +10,7 @@
     & select{
         text-transform: uppercase;
         color: white;
+        font-size:x-small;
         background-color: $primary-color;
         border: none;
     }
@@ -34,7 +37,11 @@
    font-size: 20px;
    font-weight: 700;
    color: $secondary-color;
+   & img{
+    cursor: pointer;
+    }
 }
+
 
 
 .listmenu{
