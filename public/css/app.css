@@ -11,13 +11,23 @@
 }
 
 .topperbar {
-  background-color: #0282f9;
+  display: flex;
+  justify-content: flex-end;
   width: 100%;
+  text-transform: uppercase;
+  font-size: x-small;
+  background-color: #0282f9;
 }
 
 .mini-menu {
-  width: 200px;
+  width: 400px;
+  align-items: center;
   color: white;
+  display: flex;
+}
+
+.mini-menu > * {
+  margin-left: 20px;
 }
 
 .header {
@@ -56,6 +66,8 @@
 }
 
 .searchbar input {
+  padding: 5px;
+  border: none;
   border-bottom: 3px solid #0282f9;
   text-align: right;
 }

@@ -1,5 +1,13 @@
 <div class="topperbar">
-    <div class="mini-menu"><p>testo qui</p></div>
+    <div class="mini-menu">
+        <p>dc power visa</p>
+     <div>
+        <label for="sites">additional dc site</label>
+        <select name="" id="" form="">
+          <option value=""></option>
+        </select>
+     </div>  
+    </div>
 </div>
 <div class="section  header">
         <img src="{{asset('/images/dc-logo.png')}}" alt="">
