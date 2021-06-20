@@ -40,7 +40,7 @@
   font-weight: 700;
   font-size: 20px;
   font-weight: 700;
-  color: #464646;
+  color: #303030;
 }
 
 .listmenu {
@@ -56,7 +56,7 @@
 }
 
 .listmenu a {
-  color: #464646;
+  color: #303030;
   text-decoration: none;
 }
 
@@ -73,17 +73,17 @@
 }
 
 .searchbar input::-moz-placeholder {
-  color: #464646;
+  color: #303030;
   font-size: 20px;
 }
 
 .searchbar input:-ms-input-placeholder {
-  color: #464646;
+  color: #303030;
   font-size: 20px;
 }
 
 .searchbar input::placeholder {
-  color: #464646;
+  color: #303030;
   font-size: 20px;
 }
 
@@ -162,7 +162,7 @@ select:focus {
 .smallfooter {
   height: 100px;
   width: 100%;
-  background-color: #464646;
+  background-color: #303030;
 }
 
 .container {
@@ -235,6 +235,16 @@ select:focus {
 
 .button1:active {
   border-style: none;
+}
+
+.button2 {
+  height: 60px;
+  width: 200px;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: white;
+  border: 3px solid #0282f9;
+  background-color: transparent;
 }
 
 .externalLinks {

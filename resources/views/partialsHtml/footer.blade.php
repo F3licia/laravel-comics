@@ -54,5 +54,6 @@
         <img src="{{asset('/images/dc-logo-bg.png')}}" alt="">
     </div>
 </div>
-<div class="smallfooter">
+<div class="section smallfooter">
+<button class="button2">sign-up now!</button>
 </div>
