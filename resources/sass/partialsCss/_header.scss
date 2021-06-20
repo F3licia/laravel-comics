@@ -5,7 +5,14 @@
     text-transform: uppercase;
     font-size:x-small;
     background-color: $primary-color;
+    & select{
+        text-transform: uppercase;
+        color: white;
+        background-color: $primary-color;
+        border: none;
+    }
 }
+
 .mini-menu{
     width: 400px;
     align-items: center;

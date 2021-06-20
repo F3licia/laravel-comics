@@ -19,6 +19,13 @@
   background-color: #0282f9;
 }
 
+.topperbar select {
+  text-transform: uppercase;
+  color: white;
+  background-color: #0282f9;
+  border: none;
+}
+
 .mini-menu {
   width: 400px;
   align-items: center;
@@ -259,6 +266,7 @@ select:focus {
   color: white;
   border: 3px solid #0282f9;
   background-color: transparent;
+  cursor: pointer;
 }
 
 .externalLinks {
