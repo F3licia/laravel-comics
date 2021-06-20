@@ -56,6 +56,9 @@
            </li>
        </ul>
 
-       <div class="searchbar"></div>
+       <div class="searchbar">
+           <input type="text" placeholder="Search &#x1F50E;&#xFE0E;">
+            
+        </div>
 </div>
 <div class="hero"></div>

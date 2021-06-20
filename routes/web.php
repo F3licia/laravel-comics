@@ -12,8 +12,9 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+/*home spostata su currentSeries */
 
-Route::get('/', function () {
+Route::get('', function () {
     return view('welcome');
 });
 
@@ -57,7 +58,7 @@ Route::get('/shop', function () {
     return "";
 })->name('shop');
 
-Route::get('/currentSeries', function () {
+Route::get('/', function () {
    $comics = config("comics");
 
    $datiView = [

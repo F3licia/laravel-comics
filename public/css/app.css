@@ -1,8 +1,8 @@
-@import url(//db.onlinewebfonts.com/c/60d534f9b4ded0f0b50514c27ee3e83a?family=250072c23613fe0b+-+subset+of+Greta+Sans+Pro+Bld);* {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "250072c23613fe0b - subset of Greta Sans Pro Bld";
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 .section {
@@ -12,7 +12,6 @@
 
 .topperbar {
   background-color: #0282f9;
-  height: 20px;
   width: 100%;
 }
 
@@ -28,23 +27,22 @@
   align-items: center;
   width: 100%;
   height: 150px;
+  font-weight: 700;
+  font-size: 20px;
+  font-weight: 700;
   color: #464646;
-}
-
-.header img {
-  background-color: aqua;
 }
 
 .listmenu {
   width: 100%;
   margin-left: 40px;
   margin-right: 40px;
+  letter-spacing: 0px;
   display: flex;
   justify-content: space-around;
   list-style: none;
   text-align: center;
   text-transform: uppercase;
-  background-color: aqua;
 }
 
 .listmenu a {
@@ -53,9 +51,44 @@
 }
 
 .searchbar {
-  height: 50px;
+  height: 25px;
   width: 200px;
-  background-color: aqua;
+}
+
+.searchbar input {
+  width: 100%;
+  font-size: 20px;
+  text-align: right;
+  background-color: transparent;
+  border: none;
+  border-bottom: 3px solid #0282f9;
+}
+
+.searchbar input::-moz-placeholder {
+  color: #464646;
+  font-weight: 700;
+}
+
+.searchbar input:-ms-input-placeholder {
+  color: #464646;
+  font-weight: 700;
+}
+
+.searchbar input::placeholder {
+  color: #464646;
+  font-weight: 700;
+}
+
+.searchbar input::-moz-placeholder:focus-visible {
+  outline: NONE;
+}
+
+.searchbar input:-ms-input-placeholder:focus-visible {
+  outline: NONE;
+}
+
+.searchbar input::placeholder:focus-visible {
+  outline: NONE;
 }
 
 .hero {
@@ -122,11 +155,5 @@
   font-size: 15px;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: lighter;
-}
-
-@font-face {
-  font-family: "250072c23613fe0b - subset of Greta Sans Pro Bld";
-  src: url("//db.onlinewebfonts.com/t/60d534f9b4ded0f0b50514c27ee3e83a.eot");
-  src: url("//db.onlinewebfonts.com/t/60d534f9b4ded0f0b50514c27ee3e83a.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/60d534f9b4ded0f0b50514c27ee3e83a.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/60d534f9b4ded0f0b50514c27ee3e83a.woff") format("woff"), url("//db.onlinewebfonts.com/t/60d534f9b4ded0f0b50514c27ee3e83a.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/60d534f9b4ded0f0b50514c27ee3e83a.svg#250072c23613fe0b - subset of Greta Sans Pro Bld") format("svg");
 }
 
