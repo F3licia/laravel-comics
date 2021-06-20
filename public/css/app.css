@@ -6,8 +6,8 @@
 }
 
 .section {
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .topperbar {
@@ -167,7 +167,7 @@ select:focus {
 
 .container {
   padding-top: 90px;
-  padding-bottom: 90px;
+  padding-bottom: 30px;
   background-color: #1c1c1c;
   display: flex;
   flex-wrap: wrap;
