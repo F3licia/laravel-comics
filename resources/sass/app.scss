@@ -2,7 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+<<<<<<< HEAD
     font-family: 'Noto Sans JP', sans-serif;
+=======
+    font-family: 'Roboto Condensed', sans-serif;
+>>>>>>> 55c0b1bd953a64c5687be5cbe39f0b6b2972c164
   }
   .section{
    padding-left: 100px;
@@ -14,15 +18,3 @@ $primary-color: #0282f9;
 $secondary-color:#464646;
 @import "partialsCss/header";
 @import "partialsCss/footer";
-
-
-
-
-
-@font-face {font-family: "250072c23613fe0b - subset of Greta Sans Pro Bld";
-  src: url("//db.onlinewebfonts.com/t/60d534f9b4ded0f0b50514c27ee3e83a.eot");
-  src: url("//db.onlinewebfonts.com/t/60d534f9b4ded0f0b50514c27ee3e83a.eot?#iefix")
-  format("embedded-opentype"), url("//db.onlinewebfonts.com/t/60d534f9b4ded0f0b50514c27ee3e83a.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/60d534f9b4ded0f0b50514c27ee3e83a.woff")
-  format("woff"), url("//db.onlinewebfonts.com/t/60d534f9b4ded0f0b50514c27ee3e83a.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/60d534f9b4ded0f0b50514c27ee3e83a.svg#250072c23613fe0b - subset of Greta Sans Pro Bld")
-  format("svg"); }
-@import url(//db.onlinewebfonts.com/c/60d534f9b4ded0f0b50514c27ee3e83a?family=250072c23613fe0b+-+subset+of+Greta+Sans+Pro+Bld);

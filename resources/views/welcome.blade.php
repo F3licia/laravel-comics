@@ -1,4 +1,7 @@
 @extends('layout.default')
 
-@section('page_title', 'pag_1')
+@section('page_title', 'home')
 
+@include('partialsHtml.header')
+
+@include('partialsHtml.footer')
