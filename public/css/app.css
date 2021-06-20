@@ -175,6 +175,10 @@ select:focus {
   display: flex;
 }
 
+.socialList * {
+  margin-left: 20px;
+}
+
 .container {
   padding-top: 90px;
   padding-bottom: 30px;

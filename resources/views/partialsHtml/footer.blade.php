@@ -60,6 +60,11 @@
 
     <div class="socialList">
         <h4>follow us</h4>
+        <img src="/images/footer-facebook.png" alt="">
+        <img src="/images/footer-twitter.png" alt="">
+        <img src="/images/footer-youtube.png" alt="">
+        <img src="/images/footer-pinterest.png" alt="">
+        <img src="/images/footer-periscope.png" alt="">
     </div>
 
 </div>

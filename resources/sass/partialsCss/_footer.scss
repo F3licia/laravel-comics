@@ -73,4 +73,7 @@
     text-transform: uppercase;
     color: $primary-color;
     display: flex;
+    & * {
+      margin-left: 20px;
+     }
 }

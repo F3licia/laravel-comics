@@ -2,14 +2,14 @@
     <div class="mini-menu">
         <p>dc power visa</p>
      <div>
-        <label for="sites">additional dc site</label>
         <select name="" id="" form="">
-          <option value=""></option>
+          <option value="0">additional dc site</option>
+          <option value="1">additional dc site</option>
         </select>
      </div>  
     </div>
 </div>
-<div class="section  header">
+<div class="section header">
         <img src="{{asset('/images/dc-logo.png')}}" alt="">
        <ul class="listmenu">           
            <li>
