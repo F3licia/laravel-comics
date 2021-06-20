@@ -4,9 +4,15 @@
 
 @include('partialsHtml.header')
 
-@foreach($comicsList as $comic)
-    <img src="{{$comic['thumb']}}" alt="">
-    <h4>{{ $comic['title']}}</h4>
-@endforeach
+<div class="container">
+   
+    @foreach($comicsList as $comic)
+        <div class="card">
+            <img src="{{$comic['thumb']}}" alt="">
+            <h4>{{ $comic['title']}}</h4>
+        </div>
+    @endforeach
+    
+</div>
 
 @include('partialsHtml.footer')

@@ -159,3 +159,19 @@
   background-color: #464646;
 }
 
+.container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #1c1c1c;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: calc(100% / 6);
+  text-transform: uppercase;
+  text-align: center;
+  font-size: smaller;
+  color: white;
+}
+
