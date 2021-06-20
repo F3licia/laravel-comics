@@ -2,7 +2,7 @@
     <div class="mini-menu"><p>testo qui</p></div>
 </div>
 <div class="section  header">
-<img src="{{asset('/images/dc-logo.png')}}" alt="">
+        <img src="{{asset('/images/dc-logo.png')}}" alt="">
        <ul class="listmenu">           
            <li>
                <a href="{{ route('characters') }}">
@@ -57,13 +57,8 @@
        </ul>
 
        <div class="searchbar">
-<<<<<<< HEAD
-           <input type="text" placeholder="Search">
-       </div>
-=======
+
            <input type="text" placeholder="Search &#x1F50E;&#xFE0E;">
-            
-        </div>
->>>>>>> 55c0b1bd953a64c5687be5cbe39f0b6b2972c164
+       </div>
 </div>
 <div class="hero"></div>
