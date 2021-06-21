@@ -29,14 +29,14 @@
   border: none;
 }
 
-.mini-menu {
+.mini-nav {
   width: 400px;
   align-items: center;
   color: white;
   display: flex;
 }
 
-.mini-menu > * {
+.mini-nav > * {
   margin-left: 50px;
 }
 
@@ -57,7 +57,7 @@
   cursor: pointer;
 }
 
-.listmenu {
+.listnav {
   width: 100%;
   height: 100%;
   margin-left: 40px;
@@ -71,13 +71,13 @@
   text-transform: uppercase;
 }
 
-.listmenu a {
+.listnav a {
   color: #303030;
   text-decoration: none;
   padding-bottom: 56px;
 }
 
-.listmenu a:hover {
+.listnav a:hover {
   color: #0282f9;
   border-bottom: 5px solid #0282f9;
 }

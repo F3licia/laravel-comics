@@ -1,5 +1,5 @@
 <div class="topperbar">
-    <div class="mini-menu">
+    <div class="mini-nav">
         <p>dc power visa</p>
      <div>
         <select name="" id="" form="">
@@ -10,7 +10,8 @@
     </div>
 </div>
 
-{{--@php
+{{--da provare poi
+    @php
     function setLinkClass($pagename){
         $routename= Request::route()->getName();
         return $routename == $pagename ? "active" : "";
@@ -18,10 +19,11 @@
 @endphp--}}
 
 
-
 <div class="section  header">
-        <img src="{{asset('/images/dc-logo.png')}}" alt="">
-       <ul class="listmenu">           
+        <a href="{{ route('serie in corso') }}">
+          <img src="{{asset('/images/dc-logo.png')}}" alt="">
+        </a>
+       <ul class="listnav">           
            <li>
                <a href="{{ route('characters') }}" class="{{Request::route()->getName() == 'characters'? 'active' : ''}}">
                    characters

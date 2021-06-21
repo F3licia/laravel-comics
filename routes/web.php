@@ -14,9 +14,23 @@ use Illuminate\Support\Facades\Route;
 */
 /*home spostata su currentSeries */
 
-Route::get('', function () {
-    return view('welcome');
-});
+
+Route::get('/', function () {
+    $comics = config("comics");
+ 
+    $datiView = [
+        "comicsList" => $comics
+    ];
+     return view("currentSeries", $datiView);
+})->name('serie in corso');
+
+    Route::get('/info/{id}', function ($id) {
+        $comics = config("comics");
+        $selected = $comics[$id];
+
+        return view("info", ["comic" => $selected]);
+    })->name('info');
+
 
 Route::get('/characters', function () {
     return view('characters');
@@ -58,19 +72,4 @@ Route::get('/shop', function () {
     return "";
 })->name('shop');
 
-Route::get('/', function () {
-   $comics = config("comics");
 
-   $datiView = [
-       "comicsList" => $comics
-   ];
-    return view("currentSeries", $datiView);
-})->name('serie in corso');
-
-
-Route::get('/info/{id}', function ($id) {
-    $comics = config("comics");
-    $selected = $comics[$id];
-
-     return view("info", ["comic" => $selected]);
- })->name('info');
