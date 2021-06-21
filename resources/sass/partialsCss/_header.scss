@@ -63,12 +63,16 @@
     color: $secondary-color;
     text-decoration: none;
     padding-bottom: 56px;
-    &:active, &:hover{
+    &:hover{
         color: $primary-color;
         border-bottom: 5px solid $primary-color;
     }
 }
 
+a.active {
+    color: $primary-color;
+    border-bottom: 5px solid $primary-color;
+}
 
 .searchbar{
     display: flex;

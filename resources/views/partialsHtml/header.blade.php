@@ -9,11 +9,21 @@
      </div>  
     </div>
 </div>
+
+@php
+    function setLinkClass($pagename){
+        $routename= Request::route()->getName();
+        return $routename == $pagename ? "active" : "";
+    }
+@endphp
+
+
+
 <div class="section  header">
         <img src="{{asset('/images/dc-logo.png')}}" alt="">
        <ul class="listmenu">           
            <li>
-               <a href="{{ route('characters') }}">
+               <a href="{{ route('characters') }}" class="{{Request::route()->getName() == 'characters'? 'active' : ''}}">
                    characters
                </a>
             </li>

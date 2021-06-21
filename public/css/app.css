@@ -77,8 +77,12 @@
   padding-bottom: 56px;
 }
 
-.listmenu a:active,
 .listmenu a:hover {
+  color: #0282f9;
+  border-bottom: 5px solid #0282f9;
+}
+
+a.active {
   color: #0282f9;
   border-bottom: 5px solid #0282f9;
 }
