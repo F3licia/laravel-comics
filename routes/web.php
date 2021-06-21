@@ -73,4 +73,4 @@ Route::get('/info/{id}', function ($id) {
     $selected = $comics[$id];
 
      return view("info", ["comic" => $selected]);
- })->name('scheda-fumetto');
+ })->name('info');

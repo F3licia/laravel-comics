@@ -10,11 +10,12 @@
         
     </div>
    
-    @foreach($comicsList as $comic)
+    @foreach($comicsList as $key => $comic)
         <div class="card">
-            <div class="coverimg">
-             <img src="{{$comic['thumb']}}" alt="">
-            </div>
+            <a href="{{route( 'info', ['id' => $key] )}}" class="coverimg">
+             <img src="{{$comic['thumb']}}"  alt="">
+             <!--route accetta un secondo argomento, si passa un array asssociativo che possa combaciare col parametro inserito-->
+            </a>
             <h4>{{ $comic['title']}}</h4>
         </div>
     @endforeach
