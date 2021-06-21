@@ -1,13 +1,21 @@
 .singleComicCont{
     padding-top: 90px;
     padding-bottom: 30px;
+    padding-left: 300px;
+    padding-right: 300px;
+    
     background-color: white;
     display: flex;  
     justify-content: center;
     flex-wrap: wrap;
     position: relative;
+    & * {border:1px solid gray}
 }
 
+
+.comicContWrapper{
+    margin-left: 300px;
+}
 
 .coverCont{
     height: 60px;
@@ -36,7 +44,6 @@
 .fullcardInfo{
     width: 100%;
     height: 300px;
-    color:gray;
     font-weight: 300;
 
     & h1{
@@ -51,15 +58,18 @@
 }
 
 
-
 .specs{
+    padding-bottom: 30px;
+    padding-left: 300px;
+    padding-right: 300px;
+    width: 100%;
     color: $cardFontCl;
     display: flex;
     background-color: #f6f6f6;
 }
 
 .specsCol{
-    padding-right: 100px;
+   
     width: 50%;
     display: flex;
     flex-direction: column;

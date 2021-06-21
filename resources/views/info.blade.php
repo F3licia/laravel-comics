@@ -4,14 +4,14 @@
 
 
 
-<div class="section singleComicCont">
+<div class=" singleComicCont">
     <div class="divider">
         <div class="coverCont">
             <img src="{{$comic['thumb']}}" alt="">       
         </div>
     </div>
 
-    <div class="fullcardInfo">
+    <div class="fullcardInfo ">
         <h1>{{ $comic['title']}}</h1>
         <div class="buyButtons">
             <button class="button3">
@@ -23,71 +23,71 @@
         
         <p>{{ $comic['description']}}</p>
     </div>  
-</div>
-<div class="section specs">
- 
-    <div class="specsCol">
+    </div>
+    <div class="specs">
+    
+        <div class="specsCol">
+            <div class="specsSect">
+            <h2>Talent</h2>
+            </div>
         <div class="specsSect">
-          <h2>Talent</h2>
+            <div class="specsTag">
+                Art by:
+            </div>
+            <div class="specsVal">
+                <h5>
+                        @foreach($comic['artists'] as  $artist)
+                        <span class="enlightext">{{ $artist}}</span>, 
+                        @endforeach
+                </h5>
+            </div>
         </div>
-       <div class="specsSect">
-           <div class="specsTag">
-              Art by:
-           </div>
-           <div class="specsVal">
-               <h5>
-                    @foreach($comic['artists'] as  $artist)
-                     <span class="enlightext">{{ $artist}}</span>, 
+        <div class="specsSect">
+            <div class="specsTag">
+            Written by:
+            </div>
+            <div class="specsVal">
+                <h5>
+                    @foreach($comic['writers'] as  $writer)
+                    <span class="enlightext">{{$writer}}</span>, 
                     @endforeach
-               </h5>
-           </div>
-       </div>
-       <div class="specsSect">
-        <div class="specsTag">
-           Written by:
+                </h5>
+            </div>
         </div>
-        <div class="specsVal">
-            <h5>
-                @foreach($comic['writers'] as  $writer)
-                 <span class="enlightext">{{$writer}}</span>, 
-                @endforeach
-            </h5>
         </div>
-    </div>
-    </div>
 
-    <div class="specsCol">
-        <div class="specsSect">
-         <h2>Specs</h2>
-        </div>
-        <div class="specsSect">
-            <div class="specsTag">
-                Series:
+        <div class="specsCol">
+            <div class="specsSect">
+            <h2>Specs</h2>
             </div>
-            <div class="specsVal">      
-                <h5> 
-                 <span class="enlightext">{{ $comic['series']}}
-                </h5> 
+            <div class="specsSect">
+                <div class="specsTag">
+                    Series:
+                </div>
+                <div class="specsVal">      
+                    <h5> 
+                    <span class="enlightext">{{ $comic['series']}}
+                    </h5> 
+                </div>
             </div>
-        </div>
-        <div class="specsSect">
-            <div class="specsTag">
-                Price:
+            <div class="specsSect">
+                <div class="specsTag">
+                    Price:
+                </div>
+                <div class="specsVal">      
+                    {{ $comic['price']}}  
+                </div>
             </div>
-            <div class="specsVal">      
-                {{ $comic['price']}}  
-            </div>
-        </div>
-        <div class="specsSect">
-            <div class="specsTag">
-                On Sale Date:
-            </div>
-            <div class="specsVal">      
-                {{ $comic['sale_date']}}  
+            <div class="specsSect">
+                <div class="specsTag">
+                    On Sale Date:
+                </div>
+                <div class="specsVal">      
+                    {{ $comic['sale_date']}}  
+                </div>
             </div>
         </div>
     </div>
-</div>
 
 
 @include('partialsHtml.footer')
