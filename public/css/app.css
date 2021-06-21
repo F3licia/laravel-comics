@@ -426,6 +426,10 @@ select:focus {
   margin-bottom: 10px;
 }
 
+.specsCol:nth-of-type(2) {
+  padding-left: 40px;
+}
+
 .specsSect {
   border-bottom: 1px solid lightgray;
   padding-top: 10px;
