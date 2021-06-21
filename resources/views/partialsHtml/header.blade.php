@@ -10,12 +10,12 @@
     </div>
 </div>
 
-@php
+{{--@php
     function setLinkClass($pagename){
         $routename= Request::route()->getName();
         return $routename == $pagename ? "active" : "";
     }
-@endphp
+@endphp--}}
 
 
 
