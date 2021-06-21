@@ -317,7 +317,6 @@ select:focus {
   padding-right: 10px;
   background-color: #55ba59;
   color: white;
-  text-transform: uppercase;
   height: 50px;
   width: 30%;
   display: flex;
@@ -374,7 +373,7 @@ select:focus {
   width: 200px;
   position: absolute;
   bottom: 260px;
-  left: 100px;
+  left: 300px;
 }
 
 .divider {

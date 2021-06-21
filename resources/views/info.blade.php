@@ -4,7 +4,7 @@
 
 
 
-<div class=" singleComicCont">
+<div class="section singleComicCont">
     <div class="divider">
         <div class="coverCont">
             <img src="{{$comic['thumb']}}" alt="">       
@@ -37,7 +37,11 @@
             <div class="specsVal">
                 <h5>
                         @foreach($comic['artists'] as  $artist)
-                        <span class="enlightext">{{ $artist}}</span>, 
+                            @if (count($comic['artists']) === 1)
+                                <span class="enlightext">{{ $artist}}</span>
+                            @else
+                                <span class="enlightext">{{ $artist}}</span>,
+                            @endif
                         @endforeach
                 </h5>
             </div>
@@ -49,8 +53,12 @@
             <div class="specsVal">
                 <h5>
                     @foreach($comic['writers'] as  $writer)
-                    <span class="enlightext">{{$writer}}</span>, 
-                    @endforeach
+                    @if (count($comic['writers']) === 1)
+                        <span class="enlightext">{{$writer}}</span>
+                    @else
+                        <span class="enlightext">{{$writer}}</span>,
+                    @endif
+                @endforeach
                 </h5>
             </div>
         </div>
