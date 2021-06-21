@@ -27,48 +27,54 @@
 <div class="section specs">
  
     <div class="specsCol">
-       <h2>Talent</h2>
+        <div class="specsSect">
+          <h2>Talent</h2>
+        </div>
        <div class="specsSect">
            <div class="specsTag">
               Art by:
            </div>
-           <div>
-               <h4>
-                @foreach($comic['artists'] as  $artist)
-                {{ $artist}}, 
-                @endforeach
-            </h4>
+           <div class="specsVal">
+               <h5>
+                    @foreach($comic['artists'] as  $artist)
+                     <span class="enlightext">{{ $artist}}</span>, 
+                    @endforeach
+               </h5>
            </div>
        </div>
        <div class="specsSect">
         <div class="specsTag">
            Written by:
         </div>
-        <div>
-            <h4>
+        <div class="specsVal">
+            <h5>
                 @foreach($comic['writers'] as  $writer)
-                {{ $writer}}, 
+                 <span class="enlightext">{{$writer}}</span>, 
                 @endforeach
-            </h4>
+            </h5>
         </div>
     </div>
     </div>
 
     <div class="specsCol">
-        <h2>Specs</h2>
+        <div class="specsSect">
+         <h2>Specs</h2>
+        </div>
         <div class="specsSect">
             <div class="specsTag">
                 Series:
             </div>
-            <div>      
-                {{ $comic['series']}}  
+            <div class="specsVal">      
+                <h5> 
+                 <span class="enlightext">{{ $comic['series']}}
+                </h5> 
             </div>
         </div>
         <div class="specsSect">
             <div class="specsTag">
                 Price:
             </div>
-            <div>      
+            <div class="specsVal">      
                 {{ $comic['price']}}  
             </div>
         </div>
@@ -76,7 +82,7 @@
             <div class="specsTag">
                 On Sale Date:
             </div>
-            <div>      
+            <div class="specsVal">      
                 {{ $comic['sale_date']}}  
             </div>
         </div>

@@ -402,30 +402,39 @@ select:focus {
 }
 
 .specs {
+  color: #003f5e;
   display: flex;
   background-color: #f6f6f6;
 }
 
 .specsCol {
-  padding-right: 40px;
+  padding-right: 100px;
   width: 50%;
   display: flex;
   flex-direction: column;
 }
 
 .specsCol h2 {
-  color: #003f5e;
+  margin-bottom: 10px;
 }
 
 .specsSect {
-  border-bottom: 1px solid gray;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  border-bottom: 1px solid lightgray;
+  padding-top: 10px;
+  padding-bottom: 10px;
   display: flex;
 }
 
 .specsTag {
-  width: 250px;
-  margin-right: 100px;
+  width: 200px;
+}
+
+.specsVal {
+  text-transform: uppercase;
+  width: 500px;
+}
+
+.enlightext {
+  color: #0282f9;
 }
 
