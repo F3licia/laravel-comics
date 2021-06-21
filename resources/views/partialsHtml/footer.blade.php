@@ -1,5 +1,5 @@
 <div class="section bigfooter ">
-    <div class="frame">
+    <div class="footerFrame">
         <div class="footer-lists">
             <div class="footerCol">
                 <h4>dc</h4>
@@ -46,8 +46,9 @@
                 </ul>
             </div>
             <div class="footerRow">
-                <p>All Site Content TM and © 2020 DC Entertainment, unless otherwise noted here.
-                    All rights reserved. Cookies Settings
+                <p>All Site Content TM and © 2020 DC Entertainment, unless otherwise <a href="#">noted here.</a>
+                    All rights reserved. <a href="#">Cookies Settings</a>
+                 
                 </p>
             </div>
         </div>

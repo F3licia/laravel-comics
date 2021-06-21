@@ -5,16 +5,18 @@
     font-family: 'Noto Sans JP', sans-serif;
 }
 
-  .section{
+
+.section{
    padding-left: 50px;
    padding-right:50px;
-  }
- 
+}
+
 
 $primary-color: #0282f9;
 $secondary-color:#303030;
 $tertiary-color: #1c1c1c;
 $cardFontCl: #003f5e;
+$cleartext: #d8d8d8;
 
 @import "partialsCss/header";
 @import "partialsCss/footer";
