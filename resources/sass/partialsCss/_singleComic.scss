@@ -1,0 +1,45 @@
+.singleComicCont{
+    padding-top: 90px;
+    padding-bottom: 30px;
+    background-color: white;
+    display: flex;  
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.coverCont{
+    height: 60px;
+    width: 200px;
+    color: white;
+    text-transform: uppercase;
+    background-color: $primary-color;
+    position: absolute;
+    top:-25px;
+    left: 100px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.fullcardInfo{
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+    margin-left: 10px;
+    width: calc(100% / 7);
+    background-color:gray;
+    text-transform: uppercase;
+    font-size: smaller;
+    color: white;
+
+    & h4{
+        font-weight: 200;
+        text-align: left;
+    }
+}
+
+
+

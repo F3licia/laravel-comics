@@ -66,3 +66,13 @@ Route::get('/', function () {
    ];
     return view("currentSeries", $datiView);
 })->name('serie in corso');
+
+
+Route::get('/info', function () {
+    $comics = config("comics");
+ 
+    $datiView = [
+        "comicsList" => $comics
+    ];
+     return view("info", $datiView);
+ })->name('info');
