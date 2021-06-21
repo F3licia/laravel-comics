@@ -22,7 +22,11 @@
         </div>
         
         <p>{{ $comic['description']}}</p>
-    </div>  
+    </div>
+    <div class="box">
+        <h4>advertisement</h4>
+        <img src="{{asset('/images/4dv.jpg')}}" alt="">
+    </div> 
 </div>
 <div class="specs">
     
