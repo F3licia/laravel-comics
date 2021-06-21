@@ -11,12 +11,20 @@
 .coverCont{
     height: 60px;
     width: 200px;
-    color: white;
-    text-transform: uppercase;
+   
+    position: absolute;
+    bottom: 260px;
+    left: 100px;
+}
+
+.divider{
+    height: 80px;
+ 
     background-color: $primary-color;
     position: absolute;
     top:-25px;
-    left: 100px;
+    left: 0px;
+    right:0px;
 
     display: flex;
     align-items: center;

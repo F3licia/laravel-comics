@@ -1,13 +1,15 @@
 @extends('layout.default')
-
 @section('page_title', 'pag_1')
-
 @include('partialsHtml.header')
+
+
 
 <div class="section singleComicCont">
   
-<div class="coverCont">
-        <img src="{{$comic['thumb']}}" alt="">       
+    <div class="divider">
+        <div class="coverCont">
+            <img src="{{$comic['thumb']}}" alt="">       
+        </div>
     </div>
 
     <div class="fullcardInfo">
