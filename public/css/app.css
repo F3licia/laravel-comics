@@ -401,3 +401,30 @@ select:focus {
   font-weight: 400;
 }
 
+.specs {
+  display: flex;
+  background-color: #f6f6f6;
+}
+
+.specsCol {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.specsCol > * {
+  border-bottom: 1px solid gray;
+}
+
+.specsCol h2 {
+  color: #003f5e;
+}
+
+.specsSect {
+  display: flex;
+}
+
+.specsTag {
+  width: 30%;
+}
+

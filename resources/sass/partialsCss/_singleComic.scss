@@ -52,3 +52,28 @@
 
 
 
+.specs{
+    display: flex;
+    background-color: #f6f6f6;
+}
+
+.specsCol{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    &>*{
+       border-bottom: 1px solid gray;
+    }
+    & h2{
+    color: $cardFontCl;
+    }
+}
+
+.specsSect{
+    display: flex;
+}
+
+
+.specsTag{
+width: 30%;
+}
