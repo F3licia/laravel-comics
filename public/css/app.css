@@ -357,6 +357,25 @@ select:focus {
   text-transform: uppercase;
 }
 
+.externalLinkMini {
+  height: 100px;
+  width: 100%;
+  border-top: 1px solid #d8d8d8;
+  background-color: #f6f6f6;
+  display: flex;
+  justify-content: center;
+}
+
+.linkSectMini {
+  display: flex;
+  color: #d8d8d8;
+  text-transform: uppercase;
+  padding: 10px;
+  width: calc(100/ 4);
+  border-left: 1px solid #d8d8d8;
+  border-right: 1px solid #d8d8d8;
+}
+
 .singleComicCont {
   padding-top: 90px;
   padding-bottom: 30px;

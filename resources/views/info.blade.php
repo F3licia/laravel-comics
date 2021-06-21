@@ -95,7 +95,9 @@
                 </div>
             </div>
         </div>
+
+        
 </div>
 
-
+@include('partialsHtml.externalLinksMini')
 @include('partialsHtml.footer')

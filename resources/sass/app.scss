@@ -17,11 +17,13 @@ $secondary-color:#303030;
 $tertiary-color: #1c1c1c;
 $cardFontCl: #003f5e;
 $cleartext: #d8d8d8;
+$clearbg: #f6f6f6;
 
 @import "partialsCss/header";
 @import "partialsCss/footer";
 @import "partialsCss/cardsCont";
 @import "partialsCss/buttons";
 @import "partialsCss/externalLinks";
-@import "partialsCss/singleComic";
+@import "partialsCss/externalLinksMini";
+@import "partialsCss/infoComic";
 
