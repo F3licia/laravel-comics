@@ -26,6 +26,11 @@ Route::get('/', function () {
 
     Route::get('/info/{id}', function ($id) {
         $comics = config("comics");
+
+        if (!is_numeric($id) || $id < 0 || $id > count($comics) - 1) {
+            abort(404);
+        }
+
         $selected = $comics[$id];
 
         return view("info", ["comic" => $selected]);

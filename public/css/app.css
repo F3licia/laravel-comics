@@ -383,7 +383,7 @@ select:focus {
   padding-right: 300px;
   background-color: white;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   position: relative;
 }
@@ -413,7 +413,7 @@ select:focus {
 }
 
 .fullcardInfo {
-  width: 70%;
+  width: 68%;
   height: auto;
   color: gray;
   font-weight: 300;
