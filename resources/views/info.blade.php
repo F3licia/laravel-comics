@@ -24,7 +24,7 @@
         <p>{{ $comic['description']}}</p>
     </div>  
 </div>
-<div class="specs">
+<div class="section specs">
  
     <div class="specsCol">
        <h2>Talent</h2>
@@ -33,9 +33,11 @@
               Art by:
            </div>
            <div>
+               <h4>
                 @foreach($comic['artists'] as  $artist)
-                <h4>{{ $artist}}</h4>
+                {{ $artist}}, 
                 @endforeach
+            </h4>
            </div>
        </div>
        <div class="specsSect">
@@ -43,9 +45,11 @@
            Written by:
         </div>
         <div>
-             @foreach($comic['writers'] as  $writer)
-             <h4>{{ $writer}}</h4>
-             @endforeach
+            <h4>
+                @foreach($comic['writers'] as  $writer)
+                {{ $writer}}, 
+                @endforeach
+            </h4>
         </div>
     </div>
     </div>
@@ -78,10 +82,6 @@
         </div>
     </div>
 </div>
-
-
-
-
 
 
 @include('partialsHtml.footer')
