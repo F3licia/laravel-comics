@@ -13,7 +13,16 @@
     </div>
 
     <div class="fullcardInfo">
-        <h4>{{ $comic['title']}}</h4>
+        <h1>{{ $comic['title']}}</h1>
+        <div class="buyButtons">
+            <button class="button3">
+               <span> U.S. Price: $19.99</span>
+               <span> AVAILABLE</span>
+            </button>
+            <button class="button3-2">Check availability</button>
+        </div>
+        
+        <p>{{ $comic['description']}}</p>
     </div>
        
 </div>

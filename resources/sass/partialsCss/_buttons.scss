@@ -29,3 +29,33 @@
     background-color: transparent;
     cursor: pointer;
 }
+
+
+.buyButtons{
+    width: 100%;
+    display: flex;
+}
+.button3{
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #55ba59;
+    color: white;
+    height: 50px;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+.button3-2{
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #55ba59;
+    color: white;
+    text-transform: uppercase;
+    height: 50px;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
