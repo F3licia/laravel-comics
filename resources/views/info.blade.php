@@ -23,8 +23,8 @@
         
         <p>{{ $comic['description']}}</p>
     </div>  
-    </div>
-    <div class="specs">
+</div>
+<div class="specs">
     
         <div class="specsCol">
             <div class="specsSect">
@@ -87,7 +87,7 @@
                 </div>
             </div>
         </div>
-    </div>
+</div>
 
 
 @include('partialsHtml.footer')
