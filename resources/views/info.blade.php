@@ -6,22 +6,14 @@
 
 <div class="section singleComicCont">
   
-   
-    @foreach($comicsList as $key => $comic)
+<div class="coverCont">
+        <img src="{{$comic['thumb']}}" alt="">       
+    </div>
 
-        @if ($key === 0)
-
-            <div class="coverCont">
-                <img src="{{$comic['thumb']}}" alt="">       
-            </div>
-
-            <div class="fullcardInfo">
-                <h4>{{ $comic['title']}}</h4>
-            </div>
-        @endif
-    @endforeach
-
-    
+    <div class="fullcardInfo">
+        <h4>{{ $comic['title']}}</h4>
+    </div>
+       
 </div>
 
 

@@ -68,11 +68,9 @@ Route::get('/', function () {
 })->name('serie in corso');
 
 
-Route::get('/info', function () {
+Route::get('/info/{id}', function ($id) {
     $comics = config("comics");
- 
-    $datiView = [
-        "comicsList" => $comics
-    ];
-     return view("info", $datiView);
- })->name('info');
+    $selected = $comics[$id];
+
+     return view("info", ["comic" => $selected]);
+ })->name('scheda-fumetto');
